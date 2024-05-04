@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <title>Eduford - World Biggest University</title>
+</head>
+
+<body>
+
+    <!----Header---->
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="images/logo.png" alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="academic council.html">ACADEMIC COUNCIL</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="blog-text-box">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <!----Contact---->
+    <section class="location">
+        <iframe
+            src="https://res.cloudinary.com/dhshw1ohi/image/upload/v1704213889/sxxx%20college%2CTirupathi%2CAndhra%20Pradesh.png"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <pre><p>Have a call-to-action to provide visitors with another action to take if they choose not to complete the form.</p>
+
+
+        </pre>
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>
+                        <h3 align="left">Address</h3>
+                        <pre><p align="left">Rangampet, Tirupathi, AndhraPradesh</p></span></pre>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h3 align="left">Phone</h3>
+                        <p align="left">78XXXXX06</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h3 align="left">Email</h3>
+                        <p align="left">karthikdevireddy2@gmail.com</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+
+                <div class="contact-box">
+                    <h3>Leave us a message</h3>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Write a message..."></textarea>
+                        <button type="submit" class="hero-btn-red">SUBMIT</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <h4><a href="about.html">ABOUT US</a></h4>
+        <p>Welcome to Eduford, where education meets excellence! Established in 2003, Eduford is dedicated to fostering a vibrant and inclusive learning community that empowers students to achieve their academic and personal goals.</p>
+
+        <div class="icons">
+            <a href="https://github.com/karthikdev9985" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/___karthik._.devireddy._?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/devireddy-karthik-reddy-7554b7281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/Karthikdevired9?t=EW_e2xBOQ2nRtt7oexXhVw&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> By <a href="https://karthikdev9985.github.io/PORTFOLIO/">Karthik devireddy</a></p>
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
